@@ -3,7 +3,7 @@ Pipeline {
     stages {
         stage ("build") {
           steps {
-              git clone https://github.com/udaysk36/Hello-world.git
+              git branch: 'main' url: 'https://github.com/udaysk36/Hello-world.git'
           }
         }
     }
